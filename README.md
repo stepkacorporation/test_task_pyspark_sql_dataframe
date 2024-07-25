@@ -20,16 +20,36 @@ git clone https://github.com/stepkacorporation/test_task_pyspark_sql_dataframe.g
 cd test_task_pyspark_sql_dataframe
 ```
 
-3. Install the required dependencies:
+3. Create a virtual environment:
+
+```bash
+python3 -m venv venv
+```
+
+4. Activate the virtual environment:
+
+- On Windows:
+
+```bash
+venv\Scripts\activate
+```
+
+- On macOS/Linux:
+
+```bash
+source venv/bin/activate
+```
+
+5. Install the required dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-4. Open the Jupyter Notebook:
+6. Open the Jupyter Notebook:
 
 ```bash
 jupyter notebook
 ```
 
-5. Run all cells in the notebook to see the results.
+7. Run all cells in the notebook to see the results.
